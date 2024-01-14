@@ -9,6 +9,7 @@ public:
     bool init_stack(int num)//初始化
     {
         base=new int[num];
+        size = num;
         if(base) 
         {
             top1=base;
